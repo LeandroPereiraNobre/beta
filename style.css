@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color: #0099CC;
+    font-family: sans-serif, 'Courier New', Courier, monospace;
+}
+main{
+    text-align: center;
+}
+section{
+    text-align: center;
+    background-color: aqua;
+    display: inline-block;
+    padding: 3rem;
+    border-radius: 4rem;
+    position: fixed;
+    bottom: calc(50% - (405.92px / 2)) ;
+    right: calc(50% - (392.11px / 2));
+}
+
+h1{
+    margin-top: 0;
+    font-size: 2rem;
+}
+p{
+    font-size: 1.2rem;
+}
+button{
+    color: #0099CC;
+    border: 2px solid #0099CC;
+    background-color: white;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+button:hover{
+    transition: all .5s ease;
+    background-color: #0099CC;
+    color: white;
+}
